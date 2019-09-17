@@ -1,0 +1,22 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "Api em node",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test Specified\\\"&& exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusItoi/NodeMVCApp.git"
+  },
+  "author": "Vinicius Itoi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ViniciusItoi/NodeMVCApp/issues"
+  },
+  "homepage": "https://github.com/ViniciusItoi/NodeMVCApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
