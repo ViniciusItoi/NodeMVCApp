@@ -1,11 +1,13 @@
 const express = require('express');
+const cors = require('cors');
 const mongoose = require('mongoose');
 const requireDir = require('require-dir');
 
 //Iniciando Aplicação
 const app = express();
 app.use(express.json());
-//Iniciando DB
+app.use(cors());
+//Iniciando DB 
 mongoose.connect('mongodb://localhost:27017/nodeapi', {
     useUnifiedTopology: true,
     useNewUrlParser: true
